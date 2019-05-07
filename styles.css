@@ -1,0 +1,35 @@
+/*@media screen and (max-width: 600px)
+
+{
+  .column {
+    font-style: italic;
+    width: 300px;
+    float: left;
+    padding: 20px;
+    background: blue;
+
+
+  }
+}*/
+
+body {
+  background-color: yellow;
+  }
+
+@media screen and (max-width: 600px) {
+  .column-1 {
+    font-size: 48px;
+    background: green;
+    font-family: italic;
+  }
+  body {
+    background-color: pink;
+  }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+  .column-2 {
+    font-family: cursive;
+    background: magenta;
+  }
+}
